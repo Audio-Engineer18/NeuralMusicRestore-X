@@ -22,7 +22,8 @@ A 27-stage pipeline for **immersive music audio restoration** and enhancement.
 | 13    | Denoise (DeepFilterNet)              | ✅     |
 | 14    | Dither (SSRC)                        | ✅     |
 | 15    | DC (essentia)                        | ✅     |
-| 16    | Repair (FFmpeg)                      | ⏳     |
+| 16    | Repair (FFmpeg)                      | ✅     |
+| 17    | True Peak (libebur128)               | ⏳     |
 | ...   | ...                                  | ...    |
 
 ---
@@ -48,7 +49,7 @@ A 27-stage pipeline for **immersive music audio restoration** and enhancement.
    # For Stage 04 (VHQ SRC) and Stage 08 (SRC Verify)
    sudo apt-get install libsoxr0
    
-   # For Stage 05 (FFmpeg)
+   # For Stage 05 (FFmpeg) and Stage 16 (Repair)
    sudo apt-get install ffmpeg
    
    # For Stage 06 (FLAC)
