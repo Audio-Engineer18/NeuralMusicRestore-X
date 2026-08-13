@@ -9,7 +9,8 @@ A 27-stage pipeline for **immersive music audio restoration** and enhancement.
 |-------|--------------------------------------|--------|
 | 01    | WAV/PCM (libsndfile)                 | ✅     |
 | 02    | WavPack (wvunpack)                   | ✅     |
-| 03    | RF64 (libsndfile)                    | ⏳     |
+| 03    | RF64 (libsndfile)                    | ✅     |
+| 04    | VHQ SRC (soxr)                       | ⏳     |
 | ...   | ...                                  | ...    |
 
 ---
