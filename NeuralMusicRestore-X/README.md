@@ -20,7 +20,8 @@ A 27-stage pipeline for **immersive music audio restoration** and enhancement.
 | 11    | Linear FIR (scipy)                   | ✅     |
 | 12    | Hum (iir1)                           | ✅     |
 | 13    | Denoise (DeepFilterNet)              | ✅     |
-| 14    | Dither (SSRC)                        | ⏳     |
+| 14    | Dither (SSRC)                        | ✅     |
+| 15    | DC (essentia)                        | ⏳     |
 | ...   | ...                                  | ...    |
 
 ---
@@ -69,6 +70,9 @@ A 27-stage pipeline for **immersive music audio restoration** and enhancement.
    
    # For Stage 13 (Denoise)
    # No system dependencies (pure Python/DeepFilterNet)
+   
+   # For Stage 14 (Dither)
+   sudo apt-get install libssrc
    ```
 4. Build C/C++ dependencies:
    ```bash
