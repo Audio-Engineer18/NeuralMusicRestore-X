@@ -12,7 +12,8 @@ A 27-stage pipeline for **immersive music audio restoration** and enhancement.
 | 03    | RF64 (libsndfile)                    | ✅     |
 | 04    | VHQ SRC (soxr)                       | ✅     |
 | 05    | Channels (FFmpeg)                    | ✅     |
-| 06    | FLAC (xiph/flac)                     | ⏳     |
+| 06    | FLAC (xiph/flac)                     | ✅     |
+| 07    | Float64 (numpy)                      | ⏳     |
 | ...   | ...                                  | ...    |
 
 ---
@@ -40,6 +41,9 @@ A 27-stage pipeline for **immersive music audio restoration** and enhancement.
    
    # For Stage 05 (FFmpeg)
    sudo apt-get install ffmpeg
+   
+   # For Stage 06 (FLAC)
+   sudo apt-get install libflac8
    ```
 4. Build C/C++ dependencies:
    ```bash
