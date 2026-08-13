@@ -25,7 +25,8 @@ A 27-stage pipeline for **immersive music audio restoration** and enhancement.
 | 16    | Repair (FFmpeg)                      | ✅     |
 | 17    | True Peak (libebur128)               | ✅     |
 | 18    | LUFS (libebur128)                    | ✅     |
-| 19    | Dynamics (DynamicAudioNormalizer)    | ⏳     |
+| 19    | Dynamics (DynamicAudioNormalizer)    | ✅     |
+| 20    | Silence (silan)                      | ⏳     |
 | ...   | ...                                  | ...    |
 
 ---
@@ -51,7 +52,7 @@ A 27-stage pipeline for **immersive music audio restoration** and enhancement.
    # For Stage 04 (VHQ SRC) and Stage 08 (SRC Verify)
    sudo apt-get install libsoxr0
    
-   # For Stage 05 (FFmpeg)
+   # For Stage 05 (FFmpeg) and Stage 16 (Repair)
    sudo apt-get install ffmpeg
    
    # For Stage 06 (FLAC)
@@ -81,14 +82,11 @@ A 27-stage pipeline for **immersive music audio restoration** and enhancement.
    # For Stage 15 (DC)
    sudo apt-get install libessentia2v5
    
-   # For Stage 16 (Repair)
-   sudo apt-get install ffmpeg
-   
-   # For Stage 17 (True Peak)
+   # For Stage 17 (True Peak) and Stage 18 (LUFS)
    sudo apt-get install libebur128-dev
    
-   # For Stage 18 (LUFS)
-   sudo apt-get install libebur128-dev
+   # For Stage 19 (Dynamics)
+   sudo apt-get install libdynamicaudionormalizer
    ```
 4. Build C/C++ dependencies:
    ```bash
