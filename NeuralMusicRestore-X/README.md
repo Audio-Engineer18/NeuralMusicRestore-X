@@ -13,7 +13,8 @@ A 27-stage pipeline for **immersive music audio restoration** and enhancement.
 | 04    | VHQ SRC (soxr)                       | ✅     |
 | 05    | Channels (FFmpeg)                    | ✅     |
 | 06    | FLAC (xiph/flac)                     | ✅     |
-| 07    | Float64 (numpy)                      | ⏳     |
+| 07    | Float64 (numpy)                      | ✅     |
+| 08    | SRC Verify (soxr)                    | ⏳     |
 | ...   | ...                                  | ...    |
 
 ---
