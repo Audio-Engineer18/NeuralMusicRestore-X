@@ -48,6 +48,9 @@ A 27-stage pipeline for **immersive music audio restoration** and enhancement.
    # For Stage 06 (FLAC)
    sudo apt-get install libflac8
    
+   # For Stage 07 (Float64)
+   # No system dependencies (pure Python/numpy)
+   
    # For Stage 09 (KFR)
    sudo apt-get install libkfr-dev
    ```
