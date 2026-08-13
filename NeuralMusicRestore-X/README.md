@@ -26,7 +26,8 @@ A 27-stage pipeline for **immersive music audio restoration** and enhancement.
 | 17    | True Peak (libebur128)               | ✅     |
 | 18    | LUFS (libebur128)                    | ✅     |
 | 19    | Dynamics (DynamicAudioNormalizer)    | ✅     |
-| 20    | Silence (silan)                      | ⏳     |
+| 20    | Silence (silan)                      | ✅     |
+| 21    | Super-Resolution (VASR)              | ⏳     |
 | ...   | ...                                  | ...    |
 
 ---
@@ -87,6 +88,9 @@ A 27-stage pipeline for **immersive music audio restoration** and enhancement.
    
    # For Stage 19 (Dynamics)
    sudo apt-get install libdynamicaudionormalizer
+   
+   # For Stage 20 (Silence)
+   sudo apt-get install silan
    ```
 4. Build C/C++ dependencies:
    ```bash
