@@ -15,7 +15,8 @@ A 27-stage pipeline for **immersive music audio restoration** and enhancement.
 | 06    | FLAC (xiph/flac)                     | ✅     |
 | 07    | Float64 (numpy)                      | ✅     |
 | 08    | SRC Verify (soxr)                    | ✅     |
-| 09    | Advanced SRC (KFR)                   | ⏳     |
+| 09    | Advanced SRC (KFR)                   | ✅     |
+| 10    | Subsonic (iir1)                      | ⏳     |
 | ...   | ...                                  | ...    |
 
 ---
@@ -46,6 +47,9 @@ A 27-stage pipeline for **immersive music audio restoration** and enhancement.
    
    # For Stage 06 (FLAC)
    sudo apt-get install libflac8
+   
+   # For Stage 09 (KFR)
+   sudo apt-get install libkfr-dev
    ```
 4. Build C/C++ dependencies:
    ```bash
