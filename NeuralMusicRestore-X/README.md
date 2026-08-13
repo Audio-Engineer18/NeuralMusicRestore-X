@@ -14,7 +14,8 @@ A 27-stage pipeline for **immersive music audio restoration** and enhancement.
 | 05    | Channels (FFmpeg)                    | ✅     |
 | 06    | FLAC (xiph/flac)                     | ✅     |
 | 07    | Float64 (numpy)                      | ✅     |
-| 08    | SRC Verify (soxr)                    | ⏳     |
+| 08    | SRC Verify (soxr)                    | ✅     |
+| 09    | Advanced SRC (KFR)                   | ⏳     |
 | ...   | ...                                  | ...    |
 
 ---
@@ -37,7 +38,7 @@ A 27-stage pipeline for **immersive music audio restoration** and enhancement.
    # For Stage 02 (WavPack)
    sudo apt-get install wavpack
    
-   # For Stage 04 (soxr)
+   # For Stage 04/08 (soxr)
    sudo apt-get install libsoxr0
    
    # For Stage 05 (FFmpeg)
