@@ -27,7 +27,8 @@ A 27-stage pipeline for **immersive music audio restoration** and enhancement.
 | 18    | LUFS (libebur128)                    | ✅     |
 | 19    | Dynamics (DynamicAudioNormalizer)    | ✅     |
 | 20    | Silence (silan)                      | ✅     |
-| 21    | Super-Resolution (VASR)              | ⏳     |
+| 21    | Super-Resolution (VASR)              | ✅     |
+| 22    | Enhancement (Resemble Enhance)       | ⏳     |
 | ...   | ...                                  | ...    |
 
 ---
@@ -91,6 +92,9 @@ A 27-stage pipeline for **immersive music audio restoration** and enhancement.
    
    # For Stage 20 (Silence)
    sudo apt-get install silan
+   
+   # For Stage 21 (Super-Resolution)
+   # No system dependencies (pure Python/VASR)
    ```
 4. Build C/C++ dependencies:
    ```bash
