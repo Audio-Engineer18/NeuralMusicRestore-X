@@ -18,7 +18,8 @@ A 27-stage pipeline for **immersive music audio restoration** and enhancement.
 | 09    | Advanced SRC (KFR)                   | ✅     |
 | 10    | Subsonic (iir1)                      | ✅     |
 | 11    | Linear FIR (scipy)                   | ✅     |
-| 12    | Hum (iir1)                           | ⏳     |
+| 12    | Hum (iir1)                           | ✅     |
+| 13    | Denoise (DeepFilterNet)              | ⏳     |
 | ...   | ...                                  | ...    |
 
 ---
@@ -56,7 +57,7 @@ A 27-stage pipeline for **immersive music audio restoration** and enhancement.
    # For Stage 09 (KFR)
    sudo apt-get install libkfr-dev
    
-   # For Stage 10 (Subsonic)
+   # For Stage 10 (Subsonic) and Stage 12 (Hum)
    sudo apt-get install libiir1
    
    # For Stage 11 (Linear FIR)
