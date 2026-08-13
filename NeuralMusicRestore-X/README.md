@@ -11,7 +11,8 @@ A 27-stage pipeline for **immersive music audio restoration** and enhancement.
 | 02    | WavPack (wvunpack)                   | ✅     |
 | 03    | RF64 (libsndfile)                    | ✅     |
 | 04    | VHQ SRC (soxr)                       | ✅     |
-| 05    | Channels (FFmpeg)                    | ⏳     |
+| 05    | Channels (FFmpeg)                    | ✅     |
+| 06    | FLAC (xiph/flac)                     | ⏳     |
 | ...   | ...                                  | ...    |
 
 ---
@@ -36,6 +37,9 @@ A 27-stage pipeline for **immersive music audio restoration** and enhancement.
    
    # For Stage 04 (soxr)
    sudo apt-get install libsoxr0
+   
+   # For Stage 05 (FFmpeg)
+   sudo apt-get install ffmpeg
    ```
 4. Build C/C++ dependencies:
    ```bash
