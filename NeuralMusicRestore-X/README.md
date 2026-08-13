@@ -21,7 +21,8 @@ A 27-stage pipeline for **immersive music audio restoration** and enhancement.
 | 12    | Hum (iir1)                           | ✅     |
 | 13    | Denoise (DeepFilterNet)              | ✅     |
 | 14    | Dither (SSRC)                        | ✅     |
-| 15    | DC (essentia)                        | ⏳     |
+| 15    | DC (essentia)                        | ✅     |
+| 16    | Repair (FFmpeg)                      | ⏳     |
 | ...   | ...                                  | ...    |
 
 ---
@@ -73,6 +74,9 @@ A 27-stage pipeline for **immersive music audio restoration** and enhancement.
    
    # For Stage 14 (Dither)
    sudo apt-get install libssrc
+   
+   # For Stage 15 (DC)
+   sudo apt-get install libessentia2v5
    ```
 4. Build C/C++ dependencies:
    ```bash
