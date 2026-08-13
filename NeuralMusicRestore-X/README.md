@@ -19,7 +19,8 @@ A 27-stage pipeline for **immersive music audio restoration** and enhancement.
 | 10    | Subsonic (iir1)                      | ✅     |
 | 11    | Linear FIR (scipy)                   | ✅     |
 | 12    | Hum (iir1)                           | ✅     |
-| 13    | Denoise (DeepFilterNet)              | ⏳     |
+| 13    | Denoise (DeepFilterNet)              | ✅     |
+| 14    | Dither (SSRC)                        | ⏳     |
 | ...   | ...                                  | ...    |
 
 ---
@@ -65,6 +66,9 @@ A 27-stage pipeline for **immersive music audio restoration** and enhancement.
    
    # For Stage 12 (Hum)
    sudo apt-get install libiir1
+   
+   # For Stage 13 (Denoise)
+   # No system dependencies (pure Python/DeepFilterNet)
    ```
 4. Build C/C++ dependencies:
    ```bash
