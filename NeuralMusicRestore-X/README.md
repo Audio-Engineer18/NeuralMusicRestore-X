@@ -8,7 +8,8 @@ A 27-stage pipeline for **immersive music audio restoration** and enhancement.
 | Stage | Description                          | Status |
 |-------|--------------------------------------|--------|
 | 01    | WAV/PCM (libsndfile)                 | ✅     |
-| 02    | WavPack (wvunpack)                   | ⏳     |
+| 02    | WavPack (wvunpack)                   | ✅     |
+| 03    | RF64 (libsndfile)                    | ⏳     |
 | ...   | ...                                  | ...    |
 
 ---
@@ -23,7 +24,15 @@ A 27-stage pipeline for **immersive music audio restoration** and enhancement.
    ```bash
    pip install -r requirements.txt
    ```
-3. Build C/C++ dependencies:
+3. Install system dependencies:
+   ```bash
+   # For Stage 01 (libsndfile)
+   sudo apt-get install libsndfile1
+   
+   # For Stage 02 (WavPack)
+   sudo apt-get install wavpack
+   ```
+4. Build C/C++ dependencies:
    ```bash
    mkdir build && cd build
    cmake ..
