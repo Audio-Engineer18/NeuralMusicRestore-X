@@ -57,11 +57,14 @@ A 27-stage pipeline for **immersive music audio restoration** and enhancement.
    # For Stage 09 (KFR)
    sudo apt-get install libkfr-dev
    
-   # For Stage 10 (Subsonic) and Stage 12 (Hum)
+   # For Stage 10 (Subsonic)
    sudo apt-get install libiir1
    
    # For Stage 11 (Linear FIR)
    # No system dependencies (pure Python/scipy)
+   
+   # For Stage 12 (Hum)
+   sudo apt-get install libiir1
    ```
 4. Build C/C++ dependencies:
    ```bash
