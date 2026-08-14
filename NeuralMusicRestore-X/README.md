@@ -29,7 +29,8 @@ A 27-stage pipeline for **immersive music audio restoration** and enhancement.
 | 20    | Silence (silan)                      | ✅     |
 | 21    | Super-Resolution (VASR)              | ✅     |
 | 22    | Enhancement (Resemble Enhance)       | ✅     |
-| 23    | Music Restoration (Apollo)           | ⏳     |
+| 23    | Music Restoration (Apollo)           | ✅     |
+| 24    | Vocal Restoration (SGMSE)            | ⏳     |
 | ...   | ...                                  | ...    |
 
 ---
@@ -99,6 +100,9 @@ A 27-stage pipeline for **immersive music audio restoration** and enhancement.
    
    # For Stage 22 (Enhancement)
    # No system dependencies (pure Python/Resemble Enhance)
+   
+   # For Stage 23 (Music Restoration)
+   # No system dependencies (pure Python/Apollo)
    ```
 4. Build C/C++ dependencies:
    ```bash
