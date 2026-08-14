@@ -28,7 +28,8 @@ A 27-stage pipeline for **immersive music audio restoration** and enhancement.
 | 19    | Dynamics (DynamicAudioNormalizer)    | ✅     |
 | 20    | Silence (silan)                      | ✅     |
 | 21    | Super-Resolution (VASR)              | ✅     |
-| 22    | Enhancement (Resemble Enhance)       | ⏳     |
+| 22    | Enhancement (Resemble Enhance)       | ✅     |
+| 23    | Music Restoration (Apollo)           | ⏳     |
 | ...   | ...                                  | ...    |
 
 ---
@@ -95,6 +96,9 @@ A 27-stage pipeline for **immersive music audio restoration** and enhancement.
    
    # For Stage 21 (Super-Resolution)
    # No system dependencies (pure Python/VASR)
+   
+   # For Stage 22 (Enhancement)
+   # No system dependencies (pure Python/Resemble Enhance)
    ```
 4. Build C/C++ dependencies:
    ```bash
