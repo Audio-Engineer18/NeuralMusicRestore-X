@@ -58,6 +58,12 @@ A 27-stage pipeline for **immersive music audio restoration** and enhancement.
    # For Stage 04 (VHQ SRC)
    sudo apt-get install libsoxr0
    
+   # For Stage 05 (FFmpeg)
+   sudo apt-get install ffmpeg
+   
+   # For Stage 06 (FLAC)
+   sudo apt-get install libflac8
+   
    # For Stage 07 (Float64)
    # No system dependencies (pure Python/numpy)
    
@@ -66,12 +72,6 @@ A 27-stage pipeline for **immersive music audio restoration** and enhancement.
    
    # For Stage 09 (KFR)
    sudo apt-get install libkfr-dev
-   
-   # For Stage 05 (FFmpeg), Stage 16 (Repair), and Stage 25 (Ingest/Demux)
-   sudo apt-get install ffmpeg
-   
-   # For Stage 06 (FLAC)
-   sudo apt-get install libflac8
    
    # For Stage 10 (Subsonic)
    sudo apt-get install libiir1
@@ -90,6 +90,9 @@ A 27-stage pipeline for **immersive music audio restoration** and enhancement.
    
    # For Stage 15 (DC)
    sudo apt-get install libessentia2v5
+   
+   # For Stage 16 (Repair)
+   sudo apt-get install ffmpeg
    
    # For Stage 17 (True Peak)
    sudo apt-get install libebur128-dev
@@ -114,6 +117,9 @@ A 27-stage pipeline for **immersive music audio restoration** and enhancement.
    
    # For Stage 24 (Vocal Restoration)
    # No system dependencies (pure Python/SGMSE)
+   
+   # For Stage 25 (Ingest/Demux)
+   sudo apt-get install ffmpeg
    
    # For Stage 26 (Metadata)
    # No system dependencies (pure Python/mutagen)
