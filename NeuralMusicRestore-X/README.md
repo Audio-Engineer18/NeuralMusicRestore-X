@@ -30,7 +30,8 @@ A 27-stage pipeline for **immersive music audio restoration** and enhancement.
 | 21    | Super-Resolution (VASR)              | ✅     |
 | 22    | Enhancement (Resemble Enhance)       | ✅     |
 | 23    | Music Restoration (Apollo)           | ✅     |
-| 24    | Vocal Restoration (SGMSE)            | ⏳     |
+| 24    | Vocal Restoration (SGMSE)            | ✅     |
+| 25    | Ingest/Demux (FFmpeg)                | ⏳     |
 | ...   | ...                                  | ...    |
 
 ---
@@ -103,6 +104,9 @@ A 27-stage pipeline for **immersive music audio restoration** and enhancement.
    
    # For Stage 23 (Music Restoration)
    # No system dependencies (pure Python/Apollo)
+   
+   # For Stage 24 (Vocal Restoration)
+   # No system dependencies (pure Python/SGMSE)
    ```
 4. Build C/C++ dependencies:
    ```bash
