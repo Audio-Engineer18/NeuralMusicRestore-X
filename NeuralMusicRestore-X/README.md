@@ -55,7 +55,10 @@ A 27-stage pipeline for **immersive music audio restoration** and enhancement.
    # For Stage 02 (WavPack)
    sudo apt-get install wavpack
    
-   # For Stage 04 (VHQ SRC) and Stage 08 (SRC Verify)
+   # For Stage 04 (VHQ SRC)
+   sudo apt-get install libsoxr0
+   
+   # For Stage 08 (SRC Verify)
    sudo apt-get install libsoxr0
    
    # For Stage 05 (FFmpeg), Stage 16 (Repair), and Stage 25 (Ingest/Demux)
