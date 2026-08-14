@@ -10,3 +10,4 @@ VASR>=0.1.0
 resemble-enhance>=0.1.0
 apollo>=0.1.0
 sgmse>=0.1.0
+mutagen>=1.45.0

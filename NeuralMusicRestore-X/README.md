@@ -32,7 +32,7 @@ A 27-stage pipeline for **immersive music audio restoration** and enhancement.
 | 23    | Music Restoration (Apollo)           | ✅     |
 | 24    | Vocal Restoration (SGMSE)            | ✅     |
 | 25    | Ingest/Demux (FFmpeg)                | ✅     |
-| 26    | Metadata (mutagen)                   | ⏳     |
+| 26    | Metadata (mutagen)                   | ✅     |
 | 27    | Artwork (exiftool)                   | ⏳     |
 
 ---
@@ -108,6 +108,9 @@ A 27-stage pipeline for **immersive music audio restoration** and enhancement.
    
    # For Stage 24 (Vocal Restoration)
    # No system dependencies (pure Python/SGMSE)
+   
+   # For Stage 26 (Metadata)
+   # No system dependencies (pure Python/mutagen)
    ```
 4. Build C/C++ dependencies:
    ```bash
