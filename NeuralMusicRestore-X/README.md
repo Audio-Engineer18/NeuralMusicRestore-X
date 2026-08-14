@@ -58,20 +58,20 @@ A 27-stage pipeline for **immersive music audio restoration** and enhancement.
    # For Stage 04 (VHQ SRC)
    sudo apt-get install libsoxr0
    
+   # For Stage 07 (Float64)
+   # No system dependencies (pure Python/numpy)
+   
    # For Stage 08 (SRC Verify)
    sudo apt-get install libsoxr0
+   
+   # For Stage 09 (KFR)
+   sudo apt-get install libkfr-dev
    
    # For Stage 05 (FFmpeg), Stage 16 (Repair), and Stage 25 (Ingest/Demux)
    sudo apt-get install ffmpeg
    
    # For Stage 06 (FLAC)
    sudo apt-get install libflac8
-   
-   # For Stage 07 (Float64)
-   # No system dependencies (pure Python/numpy)
-   
-   # For Stage 09 (KFR)
-   sudo apt-get install libkfr-dev
    
    # For Stage 10 (Subsonic)
    sudo apt-get install libiir1
