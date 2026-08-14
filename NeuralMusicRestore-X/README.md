@@ -31,8 +31,9 @@ A 27-stage pipeline for **immersive music audio restoration** and enhancement.
 | 22    | Enhancement (Resemble Enhance)       | ✅     |
 | 23    | Music Restoration (Apollo)           | ✅     |
 | 24    | Vocal Restoration (SGMSE)            | ✅     |
-| 25    | Ingest/Demux (FFmpeg)                | ⏳     |
-| ...   | ...                                  | ...    |
+| 25    | Ingest/Demux (FFmpeg)                | ✅     |
+| 26    | Metadata (mutagen)                   | ⏳     |
+| 27    | Artwork (exiftool)                   | ⏳     |
 
 ---
 
@@ -57,7 +58,7 @@ A 27-stage pipeline for **immersive music audio restoration** and enhancement.
    # For Stage 04 (VHQ SRC) and Stage 08 (SRC Verify)
    sudo apt-get install libsoxr0
    
-   # For Stage 05 (FFmpeg) and Stage 16 (Repair)
+   # For Stage 05 (FFmpeg), Stage 16 (Repair), and Stage 25 (Ingest/Demux)
    sudo apt-get install ffmpeg
    
    # For Stage 06 (FLAC)
