@@ -33,7 +33,7 @@ A 27-stage pipeline for **immersive music audio restoration** and enhancement.
 | 24    | Vocal Restoration (SGMSE)            | ✅     |
 | 25    | Ingest/Demux (FFmpeg)                | ✅     |
 | 26    | Metadata (mutagen)                   | ✅     |
-| 27    | Artwork (exiftool)                   | ⏳     |
+| 27    | Artwork (exiftool)                   | ✅     |
 
 ---
 
@@ -111,6 +111,9 @@ A 27-stage pipeline for **immersive music audio restoration** and enhancement.
    
    # For Stage 26 (Metadata)
    # No system dependencies (pure Python/mutagen)
+   
+   # For Stage 27 (Artwork)
+   sudo apt-get install exiftool
    ```
 4. Build C/C++ dependencies:
    ```bash
