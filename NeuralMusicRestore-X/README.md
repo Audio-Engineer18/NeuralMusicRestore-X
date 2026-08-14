@@ -88,7 +88,10 @@ A 27-stage pipeline for **immersive music audio restoration** and enhancement.
    # For Stage 15 (DC)
    sudo apt-get install libessentia2v5
    
-   # For Stage 17 (True Peak) and Stage 18 (LUFS)
+   # For Stage 17 (True Peak)
+   sudo apt-get install libebur128-dev
+   
+   # For Stage 18 (LUFS)
    sudo apt-get install libebur128-dev
    
    # For Stage 19 (Dynamics)
